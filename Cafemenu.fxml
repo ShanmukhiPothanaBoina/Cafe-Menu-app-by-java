@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox alignment="CENTER" spacing="10.0" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.example.cafeapp.cafemenuController">
+    <padding>
+        <Insets bottom="60.0" left="20.0" right="20.0" top="20.0"/>
+    </padding>
+
+    <Label text="Today's Special Menu" />
+    <VBox spacing="5.0">
+        <Label text="Special Cakes" />
+        <Label fx:id="cake1" />
+        <Label fx:id="cake2" />
+    </VBox>
